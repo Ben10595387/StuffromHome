@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 061d8c8033c44cc499107e9131bc99b7
+timeCreated: 1511326427
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: CrocodileSwim:Croc_CSpine
+    100002: CrocodileSwim:Croc_CSpine_ctrl
+    100004: CrocodileSwim:Croc_CSpine_grp
+    100006: CrocodileSwim:Croc_Geo
+    100008: CrocodileSwim:Croc_geo
+    100010: CrocodileSwim:Croc_Head
+    100012: CrocodileSwim:Croc_Head_ctrl
+    100014: CrocodileSwim:Croc_Head_grp
+    100016: CrocodileSwim:Croc_Jaw
+    100018: CrocodileSwim:Croc_Jaw_crtl
+    100020: CrocodileSwim:Croc_Jaw_grp
+    100022: CrocodileSwim:Croc_L_Elbow
+    100024: CrocodileSwim:Croc_L_Elbow_crtl
+    100026: CrocodileSwim:Croc_L_Elbow_grp
+    100028: CrocodileSwim:Croc_L_Foot
+    100030: CrocodileSwim:Croc_L_Foot_crtl
+    100032: CrocodileSwim:Croc_L_Foot_grp
+    100034: CrocodileSwim:Croc_L_Hand
+    100036: CrocodileSwim:Croc_L_Hand_crtl
+    100038: CrocodileSwim:Croc_L_Hand_grp
+    100040: CrocodileSwim:Croc_L_Hip
+    100042: CrocodileSwim:Croc_L_Hip_crtl
+    100044: CrocodileSwim:Croc_L_Hip_crtl 1
+    100046: CrocodileSwim:Croc_L_Knee
+    100048: CrocodileSwim:Croc_L_Knee_ctrl
+    100050: CrocodileSwim:Croc_L_Knee_grp
+    100052: CrocodileSwim:Croc_L_Shoulder
+    100054: CrocodileSwim:Croc_L_Shoulder_ctrl
+    100056: CrocodileSwim:Croc_L_Shoulder_grp
+    100058: CrocodileSwim:Croc_Maw
+    100060: CrocodileSwim:Croc_Maw_crtl
+    100062: CrocodileSwim:Croc_Maw_grp
+    100064: CrocodileSwim:Croc_R_Elbow
+    100066: CrocodileSwim:Croc_R_Elbow_crtl
+    100068: CrocodileSwim:Croc_R_Elbow_crtl 1
+    100070: CrocodileSwim:Croc_R_Foot
+    100072: CrocodileSwim:Croc_R_Foot_crtl
+    100074: CrocodileSwim:Croc_R_Foot_grp
+    100076: CrocodileSwim:Croc_R_Hand
+    100078: CrocodileSwim:Croc_R_Hand_crtl
+    100080: CrocodileSwim:Croc_R_Hand_grp
+    100082: CrocodileSwim:Croc_R_Hip
+    100084: CrocodileSwim:Croc_R_Hip_crtl
+    100086: CrocodileSwim:Croc_R_Hip_crtl 1
+    100088: CrocodileSwim:Croc_R_Knee
+    100090: CrocodileSwim:Croc_R_Knee_ctrl
+    100092: CrocodileSwim:Croc_R_Knee_grp
+    100094: CrocodileSwim:Croc_R_Shoulder
+    100096: CrocodileSwim:Croc_R_Shoulder_ctrl
+    100098: CrocodileSwim:Croc_R_Shoulder_grp
+    100100: CrocodileSwim:Croc_Root
+    100102: CrocodileSwim:Croc_Root_ctrl
+    100104: CrocodileSwim:Croc_Spine
+    100106: CrocodileSwim:Croc_Spine_crtl
+    100108: CrocodileSwim:Croc_Tail_01
+    100110: CrocodileSwim:Croc_Tail_01_ctrl
+    100112: CrocodileSwim:Croc_Tail_01_grp
+    100114: CrocodileSwim:Croc_Tail_02
+    100116: CrocodileSwim:Croc_Tail_02_ctrl
+    100118: CrocodileSwim:Croc_Tail_02_grp
+    100120: CrocodileSwim:Croc_Tail_03
+    100122: CrocodileSwim:Croc_Tail_03_ctrl
+    100124: CrocodileSwim:Croc_Tail_03_grp
+    100126: CrocodileSwim:Croc_Tail_04
+    100128: CrocodileSwim:Croc_Tail_04_ctrl
+    100130: CrocodileSwim:Croc_Tail_04_grp
+    100132: CrocodileSwim:Croc_Tail_05
+    100134: CrocodileSwim:Croc_Tail_05_ctrl
+    100136: CrocodileSwim:Croc_Tail_05_grp
+    100138: CrocodileSwim:Croc_Tail_06
+    100140: CrocodileSwim:Croc_Tail_06_ctrl
+    100142: CrocodileSwim:Croc_Tail_06_grp
+    100144: CrocodileSwim:Croc_Tail_07
+    100146: CrocodileSwim:Croc_Tail_07_ctrl
+    100148: CrocodileSwim:Croc_Tail_07_grp
+    100150: CrocodileSwim:Croc_teeth_BL
+    100152: CrocodileSwim:Croc_teeth_BR
+    100154: CrocodileSwim:Croc_teeth_TL
+    100156: CrocodileSwim:Croc_teeth_TR
+    100158: CrocodileSwim:Spine_ctrl_grp
+    100160: //RootNode
+    400000: CrocodileSwim:Croc_CSpine
+    400002: CrocodileSwim:Croc_CSpine_ctrl
+    400004: CrocodileSwim:Croc_CSpine_grp
+    400006: CrocodileSwim:Croc_Geo
+    400008: CrocodileSwim:Croc_geo
+    400010: CrocodileSwim:Croc_Head
+    400012: CrocodileSwim:Croc_Head_ctrl
+    400014: CrocodileSwim:Croc_Head_grp
+    400016: CrocodileSwim:Croc_Jaw
+    400018: CrocodileSwim:Croc_Jaw_crtl
+    400020: CrocodileSwim:Croc_Jaw_grp
+    400022: CrocodileSwim:Croc_L_Elbow
+    400024: CrocodileSwim:Croc_L_Elbow_crtl
+    400026: CrocodileSwim:Croc_L_Elbow_grp
+    400028: CrocodileSwim:Croc_L_Foot
+    400030: CrocodileSwim:Croc_L_Foot_crtl
+    400032: CrocodileSwim:Croc_L_Foot_grp
+    400034: CrocodileSwim:Croc_L_Hand
+    400036: CrocodileSwim:Croc_L_Hand_crtl
+    400038: CrocodileSwim:Croc_L_Hand_grp
+    400040: CrocodileSwim:Croc_L_Hip
+    400042: CrocodileSwim:Croc_L_Hip_crtl
+    400044: CrocodileSwim:Croc_L_Hip_crtl 1
+    400046: CrocodileSwim:Croc_L_Knee
+    400048: CrocodileSwim:Croc_L_Knee_ctrl
+    400050: CrocodileSwim:Croc_L_Knee_grp
+    400052: CrocodileSwim:Croc_L_Shoulder
+    400054: CrocodileSwim:Croc_L_Shoulder_ctrl
+    400056: CrocodileSwim:Croc_L_Shoulder_grp
+    400058: CrocodileSwim:Croc_Maw
+    400060: CrocodileSwim:Croc_Maw_crtl
+    400062: CrocodileSwim:Croc_Maw_grp
+    400064: CrocodileSwim:Croc_R_Elbow
+    400066: CrocodileSwim:Croc_R_Elbow_crtl
+    400068: CrocodileSwim:Croc_R_Elbow_crtl 1
+    400070: CrocodileSwim:Croc_R_Foot
+    400072: CrocodileSwim:Croc_R_Foot_crtl
+    400074: CrocodileSwim:Croc_R_Foot_grp
+    400076: CrocodileSwim:Croc_R_Hand
+    400078: CrocodileSwim:Croc_R_Hand_crtl
+    400080: CrocodileSwim:Croc_R_Hand_grp
+    400082: CrocodileSwim:Croc_R_Hip
+    400084: CrocodileSwim:Croc_R_Hip_crtl
+    400086: CrocodileSwim:Croc_R_Hip_crtl 1
+    400088: CrocodileSwim:Croc_R_Knee
+    400090: CrocodileSwim:Croc_R_Knee_ctrl
+    400092: CrocodileSwim:Croc_R_Knee_grp
+    400094: CrocodileSwim:Croc_R_Shoulder
+    400096: CrocodileSwim:Croc_R_Shoulder_ctrl
+    400098: CrocodileSwim:Croc_R_Shoulder_grp
+    400100: CrocodileSwim:Croc_Root
+    400102: CrocodileSwim:Croc_Root_ctrl
+    400104: CrocodileSwim:Croc_Spine
+    400106: CrocodileSwim:Croc_Spine_crtl
+    400108: CrocodileSwim:Croc_Tail_01
+    400110: CrocodileSwim:Croc_Tail_01_ctrl
+    400112: CrocodileSwim:Croc_Tail_01_grp
+    400114: CrocodileSwim:Croc_Tail_02
+    400116: CrocodileSwim:Croc_Tail_02_ctrl
+    400118: CrocodileSwim:Croc_Tail_02_grp
+    400120: CrocodileSwim:Croc_Tail_03
+    400122: CrocodileSwim:Croc_Tail_03_ctrl
+    400124: CrocodileSwim:Croc_Tail_03_grp
+    400126: CrocodileSwim:Croc_Tail_04
+    400128: CrocodileSwim:Croc_Tail_04_ctrl
+    400130: CrocodileSwim:Croc_Tail_04_grp
+    400132: CrocodileSwim:Croc_Tail_05
+    400134: CrocodileSwim:Croc_Tail_05_ctrl
+    400136: CrocodileSwim:Croc_Tail_05_grp
+    400138: CrocodileSwim:Croc_Tail_06
+    400140: CrocodileSwim:Croc_Tail_06_ctrl
+    400142: CrocodileSwim:Croc_Tail_06_grp
+    400144: CrocodileSwim:Croc_Tail_07
+    400146: CrocodileSwim:Croc_Tail_07_ctrl
+    400148: CrocodileSwim:Croc_Tail_07_grp
+    400150: CrocodileSwim:Croc_teeth_BL
+    400152: CrocodileSwim:Croc_teeth_BR
+    400154: CrocodileSwim:Croc_teeth_TL
+    400156: CrocodileSwim:Croc_teeth_TR
+    400158: CrocodileSwim:Spine_ctrl_grp
+    400160: //RootNode
+    4300000: CrocodileSwim:Croc_teeth_BL
+    4300002: CrocodileSwim:Croc_teeth_TR
+    4300004: CrocodileSwim:Croc_teeth_TL
+    4300006: CrocodileSwim:Croc_teeth_BR
+    4300008: CrocodileSwim:Croc_geo
+    7400000: Croc Swim
+    9500000: //RootNode
+    13700000: CrocodileSwim:Croc_geo
+    13700002: CrocodileSwim:Croc_teeth_BL
+    13700004: CrocodileSwim:Croc_teeth_BR
+    13700006: CrocodileSwim:Croc_teeth_TL
+    13700008: CrocodileSwim:Croc_teeth_TR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Croc Swim
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2c921e0b3420a6840af709e8549759b5,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

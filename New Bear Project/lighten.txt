@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class lighten : MonoBehaviour {
+
+	float phi = Time.time / duration * 2 * Mathf.PI;
+        float amplitude = 0.9F;
+        lightSource.intensity = amplitude; 
+    }
+
+}  
