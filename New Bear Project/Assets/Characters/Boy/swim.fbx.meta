@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2d442c3fc5b63214884f19cf6460f6e2
-timeCreated: 1510847260
+timeCreated: 1512973491
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -320,8 +320,8 @@ ModelImporter:
     - serializedVersion: 16
       name: swim
       takeName: Take 001
-      firstFrame: 150
-      lastFrame: 180
+      firstFrame: 1
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

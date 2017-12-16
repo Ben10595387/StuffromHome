@@ -14,6 +14,7 @@ public class lightTorch : MonoBehaviour {
 		gameObject.transform.GetChild(0).gameObject.SetActive(false);
 		gameObject.transform.GetChild(1).gameObject.SetActive(false);
 		GetComponent<MeshRenderer>().enabled = false;
+		//print("Turnedoff");
 		}
 	void OnTriggerEnter(Collider other)
 	{
@@ -22,5 +23,6 @@ public class lightTorch : MonoBehaviour {
 		gameObject.transform.GetChild(0).gameObject.SetActive(true);
 		gameObject.transform.GetChild(1).gameObject.SetActive(true);
 		GetComponent<MeshRenderer>().enabled = true;
+		//print("flameon");
 	}
 }

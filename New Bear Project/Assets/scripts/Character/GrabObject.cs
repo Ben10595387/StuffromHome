@@ -12,7 +12,8 @@ public class GrabObject : MonoBehaviour {
 	
 	void Start()
 	{
-		//Restart.restart += Reset;
+		Restart.restart += Reset;
+		GetComponent<Rigidbody>().isKinematic = true;
 		startPos = transform.position;
 		startRot = transform.rotation;
 	}
@@ -54,7 +55,7 @@ public class GrabObject : MonoBehaviour {
 		transform.parent = null;
 	}
 
-	/* void Reset()
+	 void Reset()
 	{
 		GetComponent<Rigidbody>().useGravity = true;
 		GetComponent<Rigidbody>().detectCollisions = true;
@@ -63,6 +64,6 @@ public class GrabObject : MonoBehaviour {
 		transform.rotation = startRot;
 		transform.position = startPos;
 	}
-	*/
+	
 
 }

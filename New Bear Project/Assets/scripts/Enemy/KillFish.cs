@@ -17,18 +17,26 @@ public class KillFish : MonoBehaviour {
 
 	public float maxFloatHeight;
 
+	public Animator animations;
+
+	public GameObject EnemyToAnimate;
+
 	void Start()
 	{
+		//print("Imswimming");
 		Restart.restart += RestartFish;
 		startLife = life;
 	}
 
 	
-	void OnTriggerEnter(Collider Weapon)
+	void OnTriggerEnter()
 	{
 		 
 			life -- ;
+			print("I'm Ded");
 		if(life < 0) {
+			print("I'm Ded");
+			animations.SetTrigger("Dead");
 			script.endAvoid();
 			transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false; 
 			Trigger.SetActive(false);
@@ -50,6 +58,7 @@ public class KillFish : MonoBehaviour {
 	void RestartFish()
 	{
 		//print("fish should be active");
+		animations.SetTrigger("Dead");
 		life = startLife;
 		transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
 		Trigger.SetActive(true);

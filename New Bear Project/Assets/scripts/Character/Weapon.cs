@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour {
 	void Start()
 	{
 		moveinput.pickUPWeapon = null;
-       // Restart.restart = Reset;
+        Restart.restart = Reset;
 	}
 
     void pickUpWeapon()
@@ -29,6 +29,7 @@ public class Weapon : MonoBehaviour {
 		    transform.parent.parent = WeaponHolder.transform;
             transform.parent.localPosition = new Vector3 (0,PivotOffset,0);
             transform.parent.localRotation = Quaternion.identity;
+            
             GetComponent<Collider>().enabled = false;
             
         }
@@ -65,7 +66,7 @@ public class Weapon : MonoBehaviour {
         }
     }
 
-    /* void Reset()
+    void Reset()
     {
         print("weapon reset1");
         transform.parent.GetComponent<Rigidbody>().isKinematic = false;
@@ -74,7 +75,7 @@ public class Weapon : MonoBehaviour {
 		pickup.weapon = null;
 		pickup.holdingItem = false;
         GetComponent<Collider>().enabled = true; 
-    }/* */
+    }
 
 
 }

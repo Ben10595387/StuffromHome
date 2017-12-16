@@ -7,6 +7,7 @@ using System;
 public class KillAI : MonoBehaviour {
 
 	public float life = 2;
+	
 	float startLife;
 
 	public GameObject Weapon;
@@ -15,10 +16,15 @@ public class KillAI : MonoBehaviour {
 
 	public AIattack script;
 
+	 public Animator animations;
+
+	public GameObject AnimateObject;
+
 
 
 	void Start()
 	{
+		
 		Restart.restart += RestartAI;
 		startLife = life;
 	}
@@ -30,6 +36,7 @@ public class KillAI : MonoBehaviour {
 		 
 			life -- ;
 		if(life < 0) {
+			print("Ded");
 			transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
 			transform.parent.GetComponent<Rigidbody>().useGravity = true;
 			transform.parent.GetComponent<Rigidbody>().isKinematic = false;

@@ -14,7 +14,14 @@ public class moveinput : MonoBehaviour {
 	public static Action attack;
 	public static Action pickUPWeapon;
 
+	//public static Action<float> VerticalSwim;
+	public static Action<float> HorizontalSwim;
+
 	bool pickedUp;
+
+	public Animator animations;
+
+	public GameObject AnimateObject;
 
 	/*IEnumerator ____
 	while (name of bool)
@@ -49,7 +56,10 @@ public class moveinput : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl))
 		{
-			attack();
+			
+			//attack();
+			animations.SetTrigger("Attack");
+			//print("attacked");
 		}
 
 		if(Input.GetKeyDown(KeyCode.G))
@@ -57,6 +67,18 @@ public class moveinput : MonoBehaviour {
 			pickUPWeapon();
 			pickedUp = !pickedUp;
 		}
+
+		/*if(VerticalSwim != null)
+		{
+			VerticalSwim(Input.GetAxis("Vertical"));
+		}*/
+
+		if(HorizontalSwim != null)
+		{
+			HorizontalSwim(Input.GetAxis("Horizontal"));
+		}
 		
 	}
 }
+	
+	

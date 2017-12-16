@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/BenJudo/Desktop/Bear Prototype/Assets/combinedPrototype.unity
+- path: Assets/Scenes/enviornmentFinal.unity
   isLoaded: 1
   isActive: 1

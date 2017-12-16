@@ -121,6 +121,7 @@ ModelImporter:
     100226: Rocks
     100228: Segment1
     100230: //RootNode
+    100232: FallenPiece
     400000: ManMade
     400002: models5:pCube1
     400004: models5:pCube101
@@ -237,6 +238,7 @@ ModelImporter:
     400226: Rocks
     400228: Segment1
     400230: //RootNode
+    400232: FallenPiece
     2300000: models5:pCube1
     2300002: models5:pCube101
     2300004: models5:pCube102

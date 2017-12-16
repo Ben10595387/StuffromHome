@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActivateonPlay : MonoBehaviour {
 
-	void Start()
+	void Awake()
 	{
 		PlayButton.pushedPlay += OnPlay;
 		MainPlay.pushedPlay += OnPlay;

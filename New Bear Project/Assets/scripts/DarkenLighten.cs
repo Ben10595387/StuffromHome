@@ -9,11 +9,17 @@ public class DarkenLighten : MonoBehaviour {
 	public Vector3 newRotation;
     public Light lightSource;
 
+	Quaternion startRot;
+
+	
 	void Start()
 	{
-		//beginningRotation = lightSource.transform.eulerAngles;
-		//newRotation = lightSource.transform.localEulerAngles;
+		//Restart.restart += Reset;
+		startRot = transform.rotation;
+		newRotation = lightSource.transform.localEulerAngles;
 	}
+
+	
     void OnTriggerEnter() {
        
 		//print("dark");

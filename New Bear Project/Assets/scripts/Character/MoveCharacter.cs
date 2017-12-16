@@ -13,7 +13,7 @@ public class MoveCharacter : MonoBehaviour {
 	CharacterController cc;
 
 	public Transform startpoint;
-	Vector3 tempmove = Vector3.zero;
+	public Vector3 tempmove = Vector3.zero;
 	
 	public float speed = 1;
 
@@ -36,23 +36,23 @@ public class MoveCharacter : MonoBehaviour {
 		transform.position = startpoint.position;
         moveinput.KeyAction += Move; 
 		moveinput.JumpAction = Jump;
-		//MainPlay.pushedPlay += OnPlay;
+		MainPlay.pushedPlay += OnPlay;
 		//PlayButton.pushedPlay += OnPlay;	
 	}
 	
-	/*void OnPlay () {
+	void OnPlay () {
         cc = GetComponent<CharacterController>();
 		Restart.restart += Reset;
 		transform.position = startpoint.position;
         moveinput.KeyAction += Move; 
-		PlayButton.pushedPlay -= OnPlay;
+		//PlayButton.pushedPlay -= OnPlay;
 		MainPlay.pushedPlay -= OnPlay;
 		moveinput.JumpAction = Jump;
 		
 		//to make the character have the animation as
 		//well as this script work. It must be += instead of just = Move on both scripts. 
 		
-	}*/
+	}
 
 	void Move (float _movement) {
        // print(_movement);

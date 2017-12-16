@@ -11,7 +11,7 @@ public class AnimateBear : MonoBehaviour {
 
 
 
-	void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		//animations.SetTrigger("Idle");
 		animations.SetTrigger("Run");
@@ -20,7 +20,7 @@ public class AnimateBear : MonoBehaviour {
 	//public void EndRun()
 	void OnTriggerExit()
 	{
-		animations.SetTrigger("Run");
+		animations.SetTrigger("Idle");
 	}
 	
 }

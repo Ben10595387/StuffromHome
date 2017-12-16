@@ -7,9 +7,19 @@ using System;
 public class AIattack : MonoBehaviour {
 
 	public NavMeshAgent Predator;
+
+	public Vector3 StartPos;
 	
 	//public AnimateBear AnimationHandler;
 	public GameObject target;
+
+	void Start()
+	{
+		Restart.restart += ResetPosition;
+			
+	}
+
+	
 	
 
 	void OnTriggerEnter(Collider other)
@@ -32,6 +42,10 @@ public class AIattack : MonoBehaviour {
 		yield return null;
 	}
 		
+	}
+	void ResetPosition()
+	{
+		transform.parent.position = StartPos;
 	}
 
 	public void endAttack()
