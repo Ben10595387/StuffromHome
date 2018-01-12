@@ -1,0 +1,15 @@
+Shift + W,E,R keys only translate, rotation, and scale. 
+
+Forward Kinematics (FK) Without skeleton
+	primary means of rigging. Easiest.
+	Downside is sometimes it can be clunky. 
+	Works on the principle of hierarchy. (parent-child relationship)
+   Joints 
+	Just rotation points
+	Can use pivot points as joints. 
+	When rigging think about how the rig will be used. What animation will be needed? 
+      Homework
+	2 Jumps
+	Swing
+
+	
