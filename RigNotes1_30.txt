@@ -1,0 +1,24 @@
+after controls and joints are made and oriented(Zeroed out)
+Make a group and snap it to the joint. Then put the control in the group.
+don't freeze values of the control group. Match transformations of the group. 
+
+SCENE ORGANIZATION
+Be very specific when naming.
+L.Thigh            L. Leg-01
+L.Shin             L. Leg-02
+L.Ankle     or     L. Leg-03
+
+Every joint needs a suffix- Jnt
+Every control needs a suffix _Ctrl
+Every group needs a suffix _Grp
+Every geometry needs a suffix _Geo  
+
+Higherarchy should look like this
+Name of Character
+  -Geometry
+  -Skeleton
+  -Controls
+  -Deformers
+JOINTS MOVE GEOMETRY
+CONTROLS MOVE JOINTS
+
