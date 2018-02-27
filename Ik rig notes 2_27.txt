@@ -1,0 +1,12 @@
+Blending Ik/ FK
+	basically a separate system for the IK.
+
+Fingers will be children of hand control - FK. 
+ For hand (Not IK) make Fk hand parented to separate control
+ Match transforms on control to IK control
+ Parent FK control group to jnt
+ Orient Cstrn ctrl to wrist jnt
+
+Connecting shoulder to spine
+	parent constrain shoulder to spine
+	point constrain jnt to cntrl
