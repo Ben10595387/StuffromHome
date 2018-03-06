@@ -1,0 +1,26 @@
+Adding two parent constraints on one object between two parents shares parentage 50 percent. 
+Can change weight of object in the channel editor to change how much parent influences. 
+
+Creat FK rig. Duplicate joint chain. then build IK System. DONT MOVE IT
+
+RK joint - recieves kinematics. No controls only parented. 
+
+Modify-Search and replace L or R or Ik or Fk
+
+Constrain IK base to last joint in spine
+
+Place IK handle in IK under control
+ 
+Once both IK and FK 
+
+Select IK, FK, and RK do parent/ scale constraint.
+
+Select transform control( main control), add attribute. name it along with limb. IK is 0 FK is 1
+Create set driven key Load Driver. Key all RK constraints. Load Driven. Select driven key arm attribute, 
+then parent IK FK attribute in channel editor to 0 and 1. Key them. 
+
+Load control visibility as well   
+
+
+
+
